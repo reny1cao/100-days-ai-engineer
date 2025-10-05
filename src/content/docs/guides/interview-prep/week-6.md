@@ -7,6 +7,10 @@ Focus
 
 Agentic AI: LLMs as reasoning agents that plan, use tools, and collaborate. Cover frameworks (LangChain/LangGraph), patterns, and safety.
 
+:::tip[Guardrails first]
+Design guardrails, HITL checkpoints, and monitoring alongside agent logic. Reliability and safety questions appear often.
+:::
+
 Learning Goals
 
 - Define an agent: LLM “brain” + tools + memory + planner/orchestrator.
@@ -18,9 +22,11 @@ Agents frequently use RAG as a tool (Week 5) and require solid system orchestrat
 
 Study Resources
 
-- Agent Basics/Q&A: ai.plainenglish.io roundups on definitions, components, frameworks, patterns.
-- Multi-Agent: Manager–worker patterns; LangChain multi-agent docs; CAMEL/CrewAI (conceptual).
-- Safety & Ops: Guardrails, prompt versioning, monitoring/observability, HITL.
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| Agent fundamentals | ai.plainenglish.io Q&A | Definitions, components, frameworks |
+| Multi-agent orchestration | LangChain multi-agent docs, CAMEL/CrewAI | Manager–worker, collaboration scenarios |
+| Safety & ops | Articles on guardrails, AgentOps, monitoring | Prompt versioning, audit logs, HITL |
 
 Practice & Activities
 
@@ -30,5 +36,6 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-State clearly how an agent differs from a single LLM call. Create a design checklist: Goal → Tools → Memory → Single vs multi-agent → Failure handling → Evaluation.
-
+- Write a concise definition of an agent vs a single LLM invocation.
+- Maintain a design checklist: Goal → Tools → Memory → Single vs multi-agent → Failure handling → Evaluation.
+- Map checklist items to your own agent projects for storytelling.

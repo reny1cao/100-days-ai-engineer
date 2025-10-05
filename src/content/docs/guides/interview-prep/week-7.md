@@ -7,6 +7,10 @@ Focus
 
 Behavioral prep with STAR; emphasize remote-first communication, ownership, and collaboration aligned to AI/big data projects.
 
+:::tip[Story bank]
+Maintain a spreadsheet with Situation, Task, Action, Result, metrics, and learnings for each scenario. Update throughout the week.
+:::
+
 Learning Goals
 
 - Prepare 5–6 polished STAR stories (conflict, technical challenge, leadership, cross-timezone teamwork, failure/learning, success).
@@ -18,8 +22,10 @@ Tie technical stories from Weeks 1–6 to behaviors (guardrails, debugging pipel
 
 Study Resources
 
-- STAR technique and common behavioral questions — https://www.techinterviewhandbook.org/
-- Remote best practices: async updates, documentation, tooling (Slack/Jira), proactive check-ins.
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| STAR method & questions | Tech Interview Handbook — https://www.techinterviewhandbook.org/ | Focus on conflict, leadership, failure |
+| Remote collaboration | Articles on async updates, Slack/Jira workflows | Highlight ownership, communication cadence |
 
 Practice & Activities
 
@@ -29,5 +35,6 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-Maintain a list of stories by theme. Record “Tell me about yourself” and refine clarity and enthusiasm. Ensure authenticity and learning focus.
-
+- Keep a story index grouped by theme (conflict, challenge, leadership, remote success).
+- Record “Tell me about yourself” and iterate for clarity, brevity, energy.
+- Validate authenticity—each story should emphasize learnings and impact.

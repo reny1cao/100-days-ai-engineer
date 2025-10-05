@@ -7,6 +7,10 @@ Focus
 
 Refresh ML basics and LLM concepts: Transformer intuition, prompting/fine-tuning, RLHF, and evaluation. This supports RAG and agent design.
 
+:::note[Model vs system]
+Separate model knowledge (attention, training dynamics) from product/system considerations (serving latency, evaluation). Interviews often test both angles.
+:::
+
 Learning Goals
 
 - Explain how LLMs work at a high level (next-token prediction, attention).
@@ -18,10 +22,12 @@ Theory underpins Week 5 (RAG) and Week 6 (Agents). Model behavior informs system
 
 Study Resources
 
-- ML Fundamentals: Supervised vs unsupervised, validation, bias-variance (Ng’s notes or a concise summary).
-- LLM & Transformer: “Illustrated Transformer” or beginner videos.
-- Prompting & RLHF: OpenAI/LangChain guides; RLHF intros.
-- LLM Evaluation: Perplexity limits, automated vs human eval, safety/guardrails.
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| ML fundamentals | Andrew Ng summaries / quick course recap | Focus on supervised vs unsupervised, bias-variance |
+| Transformers | “Illustrated Transformer”, explainer videos | Understand attention, positional encoding |
+| Prompting & RLHF | OpenAI guides, LangChain docs | Highlight few-shot, chain-of-thought, RLHF purpose |
+| Evaluation | Articles on perplexity, human eval, guardrails | Note metrics limits and safety checks |
 
 Practice & Activities
 
@@ -31,5 +37,5 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-Answer: “What is RAG and why is it important?” and “What are components of an AI agent?” with concise, structured responses. Connect to your past work (evals, guardrails).
-
+- Record short answers to “What is RAG and why?” and “What are the components of an AI agent?”
+- Map concepts back to real projects (eval dashboards, guardrails) for storytelling.

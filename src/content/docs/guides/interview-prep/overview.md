@@ -13,7 +13,9 @@ This full-time 8-week study plan builds a strong mental map for AI Engineer inte
 - Data engineering (pipelines, storage, streaming)
 - Behavioral and remote collaboration skills
 
-Tip: Continuously connect topics. Data structures support system design; ML fundamentals inform LLM architecture; RAG and agents blend ML with scalable systems.
+:::tip[Connect the dots]
+Data structures support system design; ML fundamentals inform LLM architecture; RAG and agents blend ML with scalable systems. Revisit these links each week to reinforce retention.
+:::
 
 Syllabus
 
@@ -28,14 +30,15 @@ Syllabus
 
 Suggested pattern per week
 
-- Learn: 1–2 core readings/videos per theme
-- Practice: Daily drills or a mini-project
-- Explain: Teach or record a brief explanation
-- Reflect: Write 3–5 bullet takeaways and gaps
+| Phase | Purpose | Example actions |
+| --- | --- | --- |
+| Learn | Build core understanding | 1–2 targeted readings or videos |
+| Practice | Apply concepts | Daily drills, mini-projects, system sketches |
+| Explain | Solidify by teaching | Record a walkthrough, write a blog note |
+| Reflect | Capture lessons | 3–5 bullet takeaways, gaps, and next steps |
 
 External resources (examples)
 
 - Tech Interview Handbook: https://www.techinterviewhandbook.org/
 - DataCamp (RAG overviews): https://www.datacamp.com/
 - ai.plainenglish.io (Agents Q&A): https://ai.plainenglish.io/
-

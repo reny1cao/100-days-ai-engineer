@@ -7,6 +7,10 @@ Focus
 
 Deep dive into RAG: integrate LLMs with external knowledge via embeddings and vector search. Understand ingestion → indexing → retrieval → generation.
 
+:::tip[Cite sources]
+Design answers that reference retrieved documents. Interviews value verifiable outputs and auditability.
+:::
+
 Learning Goals
 
 - Explain retriever + generator and knowledge store. Know chunking, embeddings, vector DBs, dense vs sparse, hybrid search.
@@ -18,9 +22,12 @@ Applies Week 4 theory in a scalable system (Week 3). RAG often powers agents’ 
 
 Study Resources
 
-- Conceptual Guides: DataCamp RAG overviews and interview Q&A — https://www.datacamp.com/
-- Framework Docs: LangChain (load → split → embed → store → query) and vector DBs (FAISS/Pinecone/Weaviate).
-- Advanced: Hybrid and hierarchical retrieval; trade-offs of vector vs keyword.
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| RAG fundamentals | DataCamp guides/interview Q&A — https://www.datacamp.com/ | Components, benefits, challenges |
+| Framework workflow | LangChain docs | Steps: load → split → embed → store → retrieve |
+| Vector DBs | FAISS, Pinecone, Weaviate docs | Compare hosting, filtering, scaling |
+| Advanced retrieval | Articles on hybrid/hierarchical search | When to mix dense & sparse |
 
 Practice & Activities
 
@@ -30,5 +37,6 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-Draw the RAG workflow from memory. Write one-sentence answers for each goal (benefits, components, evaluation). Tie to your past projects where relevant.
-
+- Draw the RAG workflow end-to-end (ingestion → retrieval → generation → evaluation).
+- Draft one-sentence answers covering benefits, components, evaluation strategies.
+- Identify parallels with prior systems (search with AI, knowledge bases).

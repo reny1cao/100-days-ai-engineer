@@ -7,6 +7,10 @@ Focus
 
 Learn scalable system design with distributed fundamentals and big data patterns (batch vs streaming), databases, and queues.
 
+:::tip[Think in flows]
+Sketch request/data flows before selecting technologies. Visualizing bottlenecks and replication paths helps justify design choices.
+:::
+
 Learning Goals
 
 - Break systems into components; design for scalability/reliability; understand replication, queues, consistency.
@@ -18,9 +22,11 @@ DSA intuition (queues, trees) maps to real components (Kafka topics, indexes). S
 
 Study Resources
 
-- System Design Basics: CAP, load balancer, CDN, caching, sharding, replication — https://www.techinterviewhandbook.org/
-- Big Data Architecture: ETL pipeline design, scalability, schema evolution, retries (e.g., Spark/Kafka; see vendor blogs/Medium overviews).
-- Reference Designs: URL shortener; streaming log processing; analytics platform (Grokking/ByteByteGo).
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| Distributed basics | TIH system design section — https://www.techinterviewhandbook.org/ | CAP, load balancers, caching, sharding |
+| Big data pipelines | Vendor/Medium write-ups on Spark/Kafka ETL | Focus on scalability, retries, schema evolution |
+| Case studies | Grokking/ByteByteGo designs | URL shortener, streaming logs, analytics |
 
 Practice & Activities
 
@@ -30,5 +36,6 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-Do a 15-min mock design talk. Use a checklist (clients, LB, cache, DB, queues, consistency, monitoring). Connect to your experience (e.g., queue for buffering, partitioning for scale).
-
+- Deliver a 15-minute mock system design.
+- Verify you covered: clients, load balancer, cache, DB, queues, consistency, monitoring, observability.
+- Document parallels with past projects (e.g., adding queues, partitioning data).

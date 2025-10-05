@@ -7,6 +7,10 @@ Focus
 
 Tackle complex data structures and algorithmic techniques. Recognize recurring problem patterns for tougher interviews.
 
+:::tip[Pattern-first mindset]
+Group new problems by pattern (two-pointer, BFS/DFS, DP) before coding to accelerate recognition and solution planning.
+:::
+
 Learning Goals
 
 - Proficiency with linked lists, stacks/queues, trees, graphs, recursion/backtracking.
@@ -18,9 +22,11 @@ Builds on Week 1 and preps Week 3 system design. Trees/graphs mirror distributed
 
 Study Resources
 
-- Topic Deep-Dive: Trees, graphs, heaps, tries, DP basics — https://www.techinterviewhandbook.org/
-- Pattern Guides: Grokking-style patterns (two-pointer, sliding window, BFS/DFS, DP).
-- Practice: Medium-level problems (LeetCode/Grind 75). Cover: list cycle, BST ops, graph path, DP (coin change).
+| Topic | Resource | Notes |
+| --- | --- | --- |
+| Trees/graphs/heaps | TIH deep-dives — https://www.techinterviewhandbook.org/ | Emphasize traversal strategies |
+| Patterns | Grokking patterns (two-pointer, sliding window, BFS/DFS, DP) | Build a pattern reference sheet |
+| Practice sets | LeetCode Medium, Grind 75 | Cover list cycle, BST ops, graph path, coin change |
 
 Practice & Activities
 
@@ -30,5 +36,7 @@ Practice & Activities
 
 Checkpoint & Reflection
 
-Ensure you can solve medium problems in time. Note recurring patterns you identified. Write two 1-paragraph analogies mapping DS to real systems (e.g., graphs for social networks, trees for hierarchy). Flag any weak area (e.g., DP) for Week 8 review.
-
+- Solve medium questions within allotted time.
+- Note recurring patterns; add to your pattern reference.
+- Draft two analogies (e.g., graphs = social networks) to practice clear explanations.
+- Flag difficult areas (e.g., DP) for Week 8 revisits.
