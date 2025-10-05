@@ -18,7 +18,15 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
-						{ label: 'AI Engineer Interview Prep (8 Weeks)', slug: 'guides/interview-prep' },
+						{ label: 'Interview Prep Overview', slug: 'guides/interview-prep/overview' },
+						{ label: 'Week 1 — Coding Fundamentals', slug: 'guides/interview-prep/week-1' },
+						{ label: 'Week 2 — Algorithms & Patterns', slug: 'guides/interview-prep/week-2' },
+						{ label: 'Week 3 — System Design & Big Data', slug: 'guides/interview-prep/week-3' },
+						{ label: 'Week 4 — ML & LLM Fundamentals', slug: 'guides/interview-prep/week-4' },
+						{ label: 'Week 5 — RAG Systems', slug: 'guides/interview-prep/week-5' },
+						{ label: 'Week 6 — AI Agents & Orchestration', slug: 'guides/interview-prep/week-6' },
+						{ label: 'Week 7 — Behavioral & Remote', slug: 'guides/interview-prep/week-7' },
+						{ label: 'Week 8 — Synthesis & Mocks', slug: 'guides/interview-prep/week-8' },
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
 				},
