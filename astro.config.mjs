@@ -12,8 +12,8 @@ export default defineConfig({
 			plugins: [
 				starlightThemeNova(/* options */), 
 			],
-			title: '100 Days of AI Engineering',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: '100 Days AI Engineer',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/reny1cao/100-days-ai-engineer' }],
 			sidebar: [
 				{
 					label: 'Guides',

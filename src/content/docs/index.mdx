@@ -3,7 +3,15 @@ title: 8-Week AI Engineer Interview Prep
 description: Remote-friendly syllabus covering coding, system design, ML/LLMs, RAG, agents, data engineering, and behavioral prep.
 ---
 
-Welcome! This handbook is the primary landing page for the 8-week remote AI Engineer interview prep program. Use it as the central hub to understand the flow of the syllabus and jump into any week’s detailed guide.
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Welcome
+
+Welcome! This handbook is the central hub for the 8-week remote AI Engineer interview prep program. Use it to understand the flow of the syllabus, jump into any week’s deep-dive, and keep track of community checkpoints.
+
+:::tip[Community-driven]
+Share progress and insights with others following the plan. Teaching and discussing solutions reinforces retention and surfaces blind spots early.
+:::
 
 ## How This Plan Works
 
@@ -14,16 +22,32 @@ Welcome! This handbook is the primary landing page for the 8-week remote AI Engi
 
 ## Weekly Guides
 
-| Week | Theme | Highlights |
-| --- | --- | --- |
-| [Week 1 — Coding Fundamentals](./guides/interview-prep/week-1) | Python DSA foundations | Arrays, strings, hash tables, Big-O drills, mini CLI project |
-| [Week 2 — Algorithms & Patterns](./guides/interview-prep/week-2) | Advanced structures & problem patterns | Trees/graphs/heaps, sorting/searching, recursion/DP, pattern recognition |
-| [Week 3 — System Design & Big Data](./guides/interview-prep/week-3) | Distributed fundamentals & pipelines | Load balancing, queues, batch vs streaming, Spark/Kafka deep-dives |
-| [Week 4 — ML & LLM Fundamentals](./guides/interview-prep/week-4) | Theory & core concepts | Transformers/attention, prompting vs fine-tuning, RLHF, evaluation |
-| [Week 5 — Retrieval-Augmented Generation](./guides/interview-prep/week-5) | RAG architecture | Ingestion → embeddings → vector DB → retrieval → generation, evaluation techniques |
-| [Week 6 — AI Agents & Orchestration](./guides/interview-prep/week-6) | Tool-using and multi-agent systems | ReAct, Planner–Executor, guardrails, HITL, AgentOps monitoring |
-| [Week 7 — Behavioral & Remote Skills](./guides/interview-prep/week-7) | STAR storytelling & remote collaboration | Conflict resolution, leadership, async communication, remote best practices |
-| [Week 8 — Synthesis & Mock Interviews](./guides/interview-prep/week-8) | Integration & final prep | Full mocks (coding, design, ML/LLM, behavioral), mind map, final checklist |
+<CardGrid stagger>
+  <Card title="Week 1 — Coding Fundamentals" icon="pencil" href="./guides/interview-prep/week-1">
+    Python DSA foundations, Big-O drills, and a mini CLI project to cement basics.
+  </Card>
+  <Card title="Week 2 — Algorithms & Patterns" icon="puzzle" href="./guides/interview-prep/week-2">
+    Trees, graphs, recursion/DP, and pattern recognition for tougher problems.
+  </Card>
+  <Card title="Week 3 — System Design & Big Data" icon="architecture" href="./guides/interview-prep/week-3">
+    Distributed fundamentals, queues, and batch vs streaming pipeline design.
+  </Card>
+  <Card title="Week 4 — ML & LLM Fundamentals" icon="brain" href="./guides/interview-prep/week-4">
+    Transformers, prompting vs fine-tuning, RLHF, and evaluation guardrails.
+  </Card>
+  <Card title="Week 5 — Retrieval-Augmented Generation" icon="search" href="./guides/interview-prep/week-5">
+    Ingestion → embeddings → vector DB → retrieval → generation workflow and evaluation.
+  </Card>
+  <Card title="Week 6 — AI Agents & Orchestration" icon="flow" href="./guides/interview-prep/week-6">
+    ReAct, Planner–Executor patterns, guardrails, HITL, and AgentOps monitoring.
+  </Card>
+  <Card title="Week 7 — Behavioral & Remote Skills" icon="people" href="./guides/interview-prep/week-7">
+    STAR storytelling, remote collaboration, and async communication best practices.
+  </Card>
+  <Card title="Week 8 — Synthesis & Mocks" icon="check" href="./guides/interview-prep/week-8">
+    Full-stack mocks, mind map review, and the final interview-day checklist.
+  </Card>
+</CardGrid>
 
 ## Getting Started
 
