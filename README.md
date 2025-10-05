@@ -1,49 +1,72 @@
-# Starlight Starter Kit: Basics
+# 8-Week AI Engineer Interview Prep
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+A remote-friendly study guide that walks candidates through a full-time, 8-week preparation plan for AI Engineer interviews. The site contains week-by-week playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, and behavioral prep.
+
+- **Live site:** https://reny1cao.github.io/100-days-ai-engineer/
+- **Docs source:** `src/content/docs/`
+- **Contributor guide:** [AGENTS.md](./AGENTS.md)
+
+## 📚 What’s Inside
+
+- **Landing hub:** A styled homepage highlighting the 8-week roadmap, milestones, and quick navigation cards.
+- **Weekly guides:** Structured sections per week with callouts, resource tables, practice prompts, and reflection checklists.
+- **GitHub Pages deployment:** Automated via the official [withastro/action](https://github.com/withastro/action) workflow.
+
+## 🛠️ Prerequisites
+
+- Node.js 20+
+- [pnpm](https://pnpm.io/) (v8+ recommended)
+
+Install dependencies once:
+
+```bash
+pnpm install
 ```
-pnpm create astro@latest -- --template starlight
-```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Local Development & Builds
 
-## 🚀 Project Structure
+| Command        | Description                                   |
+| -------------- | --------------------------------------------- |
+| `pnpm dev`     | Start local dev server at `http://localhost:4321` |
+| `pnpm build`   | Produce a production build in `dist/`          |
+| `pnpm preview` | Preview the production build locally           |
+| `pnpm astro check` | Run Astro/Starlight checks (content, types) |
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 📁 Project Structure Highlights
 
 ```
 .
-├── public/
+├── .github/workflows/deploy.yml   # GitHub Pages deployment
 ├── src/
-│   ├── assets/
+│   ├── assets/                    # Static assets referenced in docs
 │   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+│   │   └── docs/                  # Landing page, overview, week guides
+│   └── content.config.ts          # Starlight content collections
+├── astro.config.mjs               # Astro/Starlight configuration (site, base, sidebar)
+├── AGENTS.md                      # Contributor/agent guidelines
+├── package.json                   # Scripts and dependencies
+└── pnpm-lock.yaml
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🌐 Deployment
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+The site deploys automatically on pushes to `main` via `.github/workflows/deploy.yml`, which:
 
-Static assets, like favicons, can be placed in the `public/` directory.
+1. Checks out the repo.
+2. Runs the `withastro/action` build using pnpm.
+3. Publishes to GitHub Pages (environment `github-pages`).
 
-## 🧞 Commands
+Ensure `astro.config.mjs` has the correct `site` and `base` values (`https://<username>.github.io` and `/repo-name`).
 
-All commands are run from the root of the project, from a terminal:
+## 🤝 Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+1. Read [AGENTS.md](./AGENTS.md) for repo-specific guidelines.
+2. Create feature branches, run local checks (`pnpm build`, `pnpm astro check`).
+3. Open a PR with context, screenshots (if visual changes), and link to any issues.
 
-## 👀 Want to learn more?
+## 📫 Questions & Support
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- Use Issues/Discussions on GitHub to suggest improvements or report problems.
+- Share study progress, tips, or feedback when contributing content updates.
