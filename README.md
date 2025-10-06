@@ -11,7 +11,10 @@ A remote-friendly study guide that walks candidates through a full-time, 100-day
 - **Landing hub：** sprint roadmap、milestones 与导航卡片。
 - **Sprint guides：** 每个冲刺涵盖目标、资源、练习与复盘提示（en/zh 双语同步）。
 - **自动部署：** GitHub Pages + [`withastro/action`](https://github.com/withastro/action)。
-- **多语言支持：** 顶部语言切换，或直接访问 `/zh/…` 路径查看中文内容。
+- **多语言支持：**
+  - English: https://reny1cao.github.io/100-days-ai-engineer/
+  - 简体中文: https://reny1cao.github.io/100-days-ai-engineer/zh/
+  - 页面右上角也可点击切换语言。
 
 ## 🛠️ Prerequisites
 
