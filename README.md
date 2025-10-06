@@ -1,8 +1,8 @@
-# 8-Week AI Engineer Interview Prep
+# AI Engineer Interview Prep Sprints
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-A remote-friendly study guide that walks candidates through a full-time, 8-week preparation plan for AI Engineer interviews. The site contains week-by-week playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, and behavioral prep.
+A remote-friendly study guide that walks candidates through a full-time, sprint-based preparation plan for AI Engineer interviews. The site contains ten sprint playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, data engineering, LLMOps, and interview mastery.
 
 - **Live site:** https://reny1cao.github.io/100-days-ai-engineer/
 - **Docs source:** `src/content/docs/`
@@ -10,8 +10,8 @@ A remote-friendly study guide that walks candidates through a full-time, 8-week 
 
 ## 📚 What’s Inside
 
-- **Landing hub:** A styled homepage highlighting the 8-week roadmap, milestones, and quick navigation cards.
-- **Weekly guides:** Structured sections per week with callouts, resource tables, practice prompts, and reflection checklists.
+- **Landing hub:** A styled homepage highlighting the sprint roadmap, milestones, and quick navigation cards.
+- **Sprint guides:** Structured sections per sprint with callouts, resource tables, practice prompts, and reflection checklists.
 - **GitHub Pages deployment:** Automated via the official [withastro/action](https://github.com/withastro/action) workflow.
 - **Localization:** English and Simplified Chinese content with locale-aware navigation.
 
@@ -43,7 +43,7 @@ pnpm install
 ├── src/
 │   ├── assets/                    # Static assets referenced in docs
 │   ├── content/
-│   │   └── docs/                  # Landing page, overview, week guides
+│   │   └── docs/                  # Landing page, overview, sprint guides (en + zh)
 │   └── content.config.ts          # Starlight content collections
 ├── astro.config.mjs               # Astro/Starlight configuration (site, base, sidebar)
 ├── AGENTS.md                      # Contributor/agent guidelines

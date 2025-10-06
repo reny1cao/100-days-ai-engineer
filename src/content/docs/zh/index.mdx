@@ -1,13 +1,13 @@
 ---
-title: 8 周 AI 工程师面试准备
-description: 面向远程岗位的 8 周备考计划，涵盖算法、系统设计、LLM、RAG、Agent 与行为面试。
+title: AI 工程师面试冲刺计划
+description: 以十个冲刺为单位的远程友好备考路线，覆盖算法、系统设计、LLM、RAG、Agent、数据工程与面试掌控。
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## 欢迎
 
-欢迎来到 8 周 AI 工程师面试准备手册。本页是中文主站，帮助你快速了解课程结构、跳转到各周指南，并追踪社区节奏。
+欢迎来到 AI 工程师面试冲刺手册。本页是中文主站，帮助你快速了解课程结构、跳转到各个冲刺指南，并追踪社区节奏。
 
 :::tip[社区共学]
 和其他学习者分享每日收获与疑问。讲解思路、复盘踩坑能强化记忆，也让反馈更加及时。
@@ -15,37 +15,43 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## 计划说明
 
-- **时长：** 全职 8 周冲刺。
-- **结构：** 每周聚焦 1–2 个主题，包含目标、重点概念、推荐资料、练习任务与复盘提示。
-- **输出：** 夯实 DSA、系统设计（含 LLM/大数据）、ML/LLM 理论、RAG、Agent 编排与行为面试能力。
+- **时长：** 全职 10 个冲刺。
+- **结构：** 每个冲刺聚焦 1–2 个主题，包含目标、重点概念、推荐资料、练习任务与复盘提示。
+- **输出：** 夯实 DSA、系统设计（含 LLM/大数据）、ML/LLM 理论、RAG、Agent 编排、数据工程与面试掌控能力。
 - **融会贯通：** 持续关注主题之间的联动，例如数据结构支撑系统架构、ML 基础决定 LLM 系统取舍。
 
-## 每周指南
+## 冲刺指南
 
 <CardGrid stagger>
-  <Card title="第 1 周 — 编程基础" icon="pencil" href="./guides/interview-prep/week-1">
-    Python 数据结构与 Big-O 复习，含练习与 CLI 小项目。
+  <Card title="第 1 冲刺 — Python 基础" icon="pencil" href="./guides/interview-prep/sprint-1">
+    Python 数据结构、复杂度直觉与 CLI 工具搭建。
   </Card>
-  <Card title="第 2 周 — 算法与模式" icon="puzzle" href="./guides/interview-prep/week-2">
-    树/图/堆、递归与 DP，聚焦题型模式归纳。
+  <Card title="第 2 冲刺 — 算法与模式" icon="puzzle" href="./guides/interview-prep/sprint-2">
+    树/图/堆、递归/DP 以及常见面试模式归纳。
   </Card>
-  <Card title="第 3 周 — 系统设计与大数据" icon="architecture" href="./guides/interview-prep/week-3">
-    分布式基础、消息队列、批流一体数据管道。
+  <Card title="第 3 冲刺 — 系统设计与大数据" icon="architecture" href="./guides/interview-prep/sprint-3">
+    分布式基础、缓存、消息队列与批流数据管道。
   </Card>
-  <Card title="第 4 周 — ML 与大模型基础" icon="brain" href="./guides/interview-prep/week-4">
-    Transformer、提示工程、RLHF 与评估指标。
+  <Card title="第 4 冲刺 — ML 与大模型基础" icon="brain" href="./guides/interview-prep/sprint-4">
+    Transformer、提示工程、RLHF 与评估体系。
   </Card>
-  <Card title="第 5 周 — RAG 检索增强" icon="search" href="./guides/interview-prep/week-5">
-    文档切片、向量数据库、检索与生成流程。
+  <Card title="第 5 冲刺 — RAG 系统" icon="search" href="./guides/interview-prep/sprint-5">
+    摄入→嵌入→检索→生成全流程与评估。
   </Card>
-  <Card title="第 6 周 — AI Agent 与编排" icon="flow" href="./guides/interview-prep/week-6">
-    ReAct/Planner 模式、工具调用、HITL 与监控。
+  <Card title="第 6 冲刺 — Agent 与编排" icon="flow" href="./guides/interview-prep/sprint-6">
+    Planner/Executor 模式、守护机制、HITL 与监控。
   </Card>
-  <Card title="第 7 周 — 行为与远程协作" icon="people" href="./guides/interview-prep/week-7">
-    STAR 故事库、跨时区沟通与远程最佳实践。
+  <Card title="第 7 冲刺 — AI 数据工程" icon="architecture" href="./guides/interview-prep/sprint-7">
+    数据建模、质量、批流 ETL、治理与成本控制。
   </Card>
-  <Card title="第 8 周 — 综合模拟" icon="check" href="./guides/interview-prep/week-8">
-    编码/设计/ML/行为全栈模拟与终极清单。
+  <Card title="第 8 冲刺 — LLMOps 与部署" icon="flow" href="./guides/interview-prep/sprint-8">
+    API 网关、CI/CD、观测、K8s 与可靠性测试。
+  </Card>
+  <Card title="第 9 冲刺 — 高阶系统设计" icon="puzzle" href="./guides/interview-prep/sprint-9">
+    NL→SQL、合规 RAG、实时分析、多租户等架构演练。
+  </Card>
+  <Card title="第 10 冲刺 — 面试冲刺" icon="check" href="./guides/interview-prep/sprint-10">
+    模拟面试、作品集打磨、谈判准备与终极复盘。
   </Card>
 </CardGrid>
 
@@ -55,22 +61,24 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## 里程碑与检查点
 
-| 周次 | 关键里程碑 | 建议分享 |
+| 冲刺 | 关键里程碑 | 建议分享 |
 | --- | --- | --- |
-| 1 | 完成核心数据结构练习及 CLI 小工具 | 总结疑难点与复杂度分析 |
-| 2 | 至少解决 3–4 道中等题型并归类模式 | 录制/复述一道题的思路讲解 |
-| 3 | 画出系统设计 + 大数据管道 | 与同伴评审设计方案与瓶颈 |
+| 1 | 完成核心数据结构练习及 CLI 工具 | 总结疑难点与复杂度分析 |
+| 2 | 至少解决 3–4 道中等题并归类模式 | 录制/复述一道题的思路讲解 |
+| 3 | 完成系统设计 + 大数据管道演练 | 与同伴评审设计方案与瓶颈 |
 | 4 | 能清晰解释 Transformer、Prompt、RLHF | 制作术语闪卡并自测 |
 | 5 | 产出 RAG 架构与评估指标草案 | 讨论向量库、切片策略取舍 |
-| 6 | 设计或实现一个工具型 Agent | 梳理守护机制与失败恢复方案 |
-| 7 | 完成 5 个 STAR 故事与远程协作案例 | 演练一次行为面试 |
-| 8 | 连续完成全流程模拟面试 | 复盘表现、调整清单并休息 |
+| 6 | 演示工具型 Agent 与守护机制 | 梳理失败恢复与评估策略 |
+| 7 | Demo 批流一体 ETL，展示数据质量指标 | 分享治理/成本优化经验 |
+| 8 | 发布 LLM 服务 + SLO 仪表板 | 回顾混沌/可靠性测试结果 |
+| 9 | 完成 75 分钟系统设计模拟 | 汇总反馈与改进计划 |
+| 10 | 结束全套模拟与谈判准备 | 演练面试日流程与细节 |
 
 ## 支持与协作
 
-- 组织或加入每周 30 分钟站会，分享进度、卡点、资源。
-- 建立一份活页笔记记录反思与问题，用于第 8 周回顾。
-- 至少每周进行一次结对编程或系统设计演练，模拟真实合作场景。
+- 组织或加入每个冲刺 30 分钟站会，分享进度、卡点、资源。
+- 建立一份活页笔记记录反思与问题，用于第 10 冲刺回顾。
+- 至少每个冲刺进行一次结对编程或系统设计演练，模拟真实合作场景。
 
 :::caution[守护专注时间]
 提前在日历中锁定学习时段，避免碎片化任务打断。不必追求超长时间，持续稳定最重要。
@@ -79,8 +87,8 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## 快速开始
 
 1. 阅读 **[总览](./guides/interview-prep/overview)**，了解每日节奏与复盘模板。
-2. 预留每周固定时间块（算法、系统、行为模拟等）。
-3. 建立任务/习惯清单，记录当周任务与反思。
+2. 预留每个冲刺的固定时间块（算法、系统设计、行为模拟等）。
+3. 建立任务/习惯清单，记录当冲刺的任务与反思。
 4. 若有社区渠道（Slack/Discord 等），及时同步心得与问题。
 
-祝备考顺利！从当前周开始行动，坚持输出与复盘，你会在 8 周内建立系统的面试思维和信心。
+祝备考顺利！从当前冲刺开始行动，坚持输出与复盘，你会在十个冲刺内建立系统的面试思维与自信。

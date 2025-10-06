@@ -1,11 +1,11 @@
 ---
-title: 8-Week AI Engineer Interview Prep
-description: Remote-friendly, full-time plan connecting coding, systems, ML/LLMs, RAG, agents, data engineering, and behavioral skills.
+title: AI Engineer Interview Prep Sprints
+description: Remote-friendly, full-time plan organized into ten themed sprints covering coding, systems, ML/LLMs, RAG, agents, data engineering, and interview mastery.
 ---
 
 Overview
 
-This full-time 8-week study plan builds a strong mental map for AI Engineer interviews. Each week targets a specific theme with goals, resources, practice, and reflection. You’ll integrate:
+This full-time program now runs across ten sprints. Each sprint focuses on a tightly scoped theme with daily goals, resources, practice, and reflection. You’ll integrate:
 
 - Coding (Python, DSA, patterns)
 - System design (incl. big-data and LLM-aware design)
@@ -14,21 +14,23 @@ This full-time 8-week study plan builds a strong mental map for AI Engineer inte
 - Behavioral and remote collaboration skills
 
 :::tip[Connect the dots]
-Data structures support system design; ML fundamentals inform LLM architecture; RAG and agents blend ML with scalable systems. Revisit these links each week to reinforce retention.
+Data structures support system design; ML fundamentals inform LLM architecture; RAG and agents blend ML with scalable systems. Revisit these links every sprint to reinforce retention.
 :::
 
-Syllabus
+Sprint roadmap
 
-- Week 1: Coding Fundamentals & Data Structures (Python)
-- Week 2: Advanced Algorithms & Problem Solving Patterns
-- Week 3: System Design Fundamentals & Big Data Architecture
-- Week 4: ML & LLM Fundamentals (Theory and Concepts)
-- Week 5: Retrieval-Augmented Generation (RAG) Systems
-- Week 6: AI Agents & Orchestration (Tool Use and Multi-Agent)
-- Week 7: Behavioral Interviews & Remote Competencies
-- Week 8: Synthesis, Mocks, and Final Prep
+- Sprint 1: Python DSA Foundations
+- Sprint 2: Algorithms & Pattern Recognition
+- Sprint 3: System Design & Big Data
+- Sprint 4: ML & LLM Fundamentals
+- Sprint 5: Retrieval-Augmented Generation (RAG)
+- Sprint 6: Agents & Orchestration
+- Sprint 7: Data Engineering for AI
+- Sprint 8: LLMOps & Serving
+- Sprint 9: Advanced System Design & Whiteboarding
+- Sprint 10: Interview Mastery & Negotiation
 
-Suggested pattern per week
+Suggested cadence per sprint
 
 | Phase | Purpose | Example actions |
 | --- | --- | --- |

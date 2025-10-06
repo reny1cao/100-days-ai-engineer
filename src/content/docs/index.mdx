@@ -1,13 +1,13 @@
 ---
-title: 8-Week AI Engineer Interview Prep
-description: Remote-friendly syllabus covering coding, system design, ML/LLMs, RAG, agents, data engineering, and behavioral prep.
+title: AI Engineer Interview Prep Sprints
+description: Remote-friendly syllabus organized into ten sprints covering coding, system design, ML/LLMs, RAG, agents, data engineering, and interview mastery.
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Welcome
 
-Welcome! This handbook is the central hub for the 8-week remote AI Engineer interview prep program. Use it to understand the flow of the syllabus, jump into any week’s deep-dive, and keep track of community checkpoints.
+Welcome! This handbook is the central hub for the sprint-based AI Engineer interview prep program. Use it to understand the flow of the syllabus, jump into any sprint’s deep-dive, and keep track of community checkpoints.
 
 :::tip[Community-driven]
 Share progress and insights with others following the plan. Teaching and discussing solutions reinforces retention and surfaces blind spots early.
@@ -15,8 +15,8 @@ Share progress and insights with others following the plan. Teaching and discuss
 
 ## How This Plan Works
 
-- **Duration:** Full-time schedule across 8 weeks.
-- **Structure:** Each week focuses on one or two themes with goals, connected concepts, curated resources, practice tasks, and reflection prompts.
+- **Duration:** Full-time schedule across 10 themed sprints.
+- **Structure:** Each sprint focuses on one or two themes with goals, connected concepts, curated resources, practice tasks, and reflection prompts.
 - **Outcome:** Confidence across DSA, system design (including LLM/big data systems), ML/LLM fundamentals, RAG, agents, data engineering, and behavioral interviews.
 - **Interlinking:** Notice how topics reinforce each other—e.g., data structures power distributed designs, and ML basics inform LLM systems.
 
@@ -24,42 +24,48 @@ Share progress and insights with others following the plan. Teaching and discuss
 Set a daily routine that blends focused study blocks (e.g., 2h coding, 1h systems) with reflection time. Consistency beats cramming.
 :::
 
-## Weekly Guides
+## Sprint Guides
 
 <CardGrid stagger>
-  <Card title="Week 1 — Coding Fundamentals" icon="pencil" href="./guides/interview-prep/week-1">
-    Python DSA foundations, Big-O drills, and a mini CLI project to cement basics.
+  <Card title="Sprint 1 — Python Foundations" icon="pencil" href="./guides/interview-prep/sprint-1">
+    Python DSA fundamentals, Big-O drills, and CLI tooling setup.
   </Card>
-  <Card title="Week 2 — Algorithms & Patterns" icon="puzzle" href="./guides/interview-prep/week-2">
-    Trees, graphs, recursion/DP, and pattern recognition for tougher problems.
+  <Card title="Sprint 2 — Algorithms & Patterns" icon="puzzle" href="./guides/interview-prep/sprint-2">
+    Trees, graphs, recursion/DP, and reusable interview patterns.
   </Card>
-  <Card title="Week 3 — System Design & Big Data" icon="architecture" href="./guides/interview-prep/week-3">
-    Distributed fundamentals, queues, and batch vs streaming pipeline design.
+  <Card title="Sprint 3 — System Design & Big Data" icon="architecture" href="./guides/interview-prep/sprint-3">
+    Distributed fundamentals, queues, and batch vs streaming pipelines.
   </Card>
-  <Card title="Week 4 — ML & LLM Fundamentals" icon="brain" href="./guides/interview-prep/week-4">
+  <Card title="Sprint 4 — ML & LLM Fundamentals" icon="brain" href="./guides/interview-prep/sprint-4">
     Transformers, prompting vs fine-tuning, RLHF, and evaluation guardrails.
   </Card>
-  <Card title="Week 5 — Retrieval-Augmented Generation" icon="search" href="./guides/interview-prep/week-5">
-    Ingestion → embeddings → vector DB → retrieval → generation workflow and evaluation.
+  <Card title="Sprint 5 — RAG Systems" icon="search" href="./guides/interview-prep/sprint-5">
+    Ingestion → embeddings → retrieval → generation workflow and evaluation.
   </Card>
-  <Card title="Week 6 — AI Agents & Orchestration" icon="flow" href="./guides/interview-prep/week-6">
-    ReAct, Planner–Executor patterns, guardrails, HITL, and AgentOps monitoring.
+  <Card title="Sprint 6 — Agents & Orchestration" icon="flow" href="./guides/interview-prep/sprint-6">
+    Planner–Executor patterns, guardrails, HITL, and AgentOps monitoring.
   </Card>
-  <Card title="Week 7 — Behavioral & Remote Skills" icon="people" href="./guides/interview-prep/week-7">
-    STAR storytelling, remote collaboration, and async communication best practices.
+  <Card title="Sprint 7 — Data Engineering for AI" icon="architecture" href="./guides/interview-prep/sprint-7">
+    Data modeling, quality, batch/stream ETL, governance, and cost.
   </Card>
-  <Card title="Week 8 — Synthesis & Mocks" icon="check" href="./guides/interview-prep/week-8">
-    Full-stack mocks, mind map review, and the final interview-day checklist.
+  <Card title="Sprint 8 — LLMOps & Serving" icon="flow" href="./guides/interview-prep/sprint-8">
+    API gateway, CI/CD, observability, Kubernetes, and reliability testing.
+  </Card>
+  <Card title="Sprint 9 — Advanced System Design" icon="puzzle" href="./guides/interview-prep/sprint-9">
+    Architecture drills for NL→SQL, compliance RAG, analytics, and SaaS.
+  </Card>
+  <Card title="Sprint 10 — Interview Mastery" icon="check" href="./guides/interview-prep/sprint-10">
+    Mock loops, portfolio polish, negotiation, and final readiness.
   </Card>
 </CardGrid>
 
 :::tip[Bookmark this hub]
-Return here for quick navigation, weekly reminders, and new community prompts.
+Return here for quick navigation, sprint reminders, and new community prompts.
 :::
 
 ## Milestones & Checkpoints
 
-| Week | Milestone | Suggested Check-in |
+| Sprint | Milestone | Suggested Check-in |
 | --- | --- | --- |
 | 1 | Finish core Python DSA drills & mini CLI project | Share takeaways and tricky edge cases |
 | 2 | Solve 3–4 medium problems across patterns | Record a problem explanation video or voice note |
@@ -67,14 +73,16 @@ Return here for quick navigation, weekly reminders, and new community prompts.
 | 4 | Confidently explain Transformers, prompting, RLHF | Create flashcards & quiz yourself |
 | 5 | Draft a RAG architecture and evaluation plan | Discuss trade-offs (vector DB, chunking) in community |
 | 6 | Prototype a tool-using agent or outline one | Document guardrails and failure handling plan |
-| 7 | Finalize 5 STAR stories + remote workflows | Run a mock behavioral interview |
-| 8 | Complete full mock loop (coding, design, ML, behavioral) | Debrief, adjust checklist, rest |
+| 7 | Finalize AI-ready ETL (batch + stream) | Demo data quality metrics |
+| 8 | Ship LLM service with SLO dashboard | Run chaos/resilience drill recap |
+| 9 | Complete 75-min system design mock | Capture feedback + revision plan |
+| 10 | Finish full mock loop & negotiation prep | Run interview-day dry run |
 
 ## Support & Accountability
 
-- Join or create a weekly sync (30 minutes) to share wins, blockers, and resources discovered.
-- Keep a living doc for reflections, questions, and solutions—reference it during Week 8 mocks.
-- Pair-program or co-design at least once per week to simulate collaborative interview settings.
+- Join or create a sprint sync (30 minutes) to share wins, blockers, and resources discovered.
+- Keep a living doc for reflections, questions, and solutions—reference it during Sprint 10 mocks.
+- Pair-program or co-design at least once per sprint to simulate collaborative interview settings.
 
 :::caution[Protect focus time]
 Block calendar slots and treat them as non-negotiable. Multitasking slows progress and hurts retention.
@@ -83,16 +91,16 @@ Block calendar slots and treat them as non-negotiable. Multitasking slows progre
 ## Getting Started
 
 1. Read the **[Overview](./guides/interview-prep/overview)** for mindset, daily cadence, and reflection habits.
-2. Block calendar time for each week’s practice (coding blocks, design sessions, mock interviews).
-3. Track progress in a simple doc or project board; log reflections and gaps weekly.
+2. Block calendar time for each sprint’s practice (coding blocks, design sessions, mock interviews).
+3. Track progress in a simple doc or project board; log reflections and gaps per sprint.
 4. Join the community (Discord/Slack, if available) to discuss wins, blockers, and share resources.
 
 ## Tips for Success
 
-- **Consistency over cramming:** Treat each week as a sprint; keep daily study/reporting cadence.
+- **Consistency over cramming:** Treat each sprint as a focused mission; keep daily study/reporting cadence.
 - **Explain concepts aloud:** Teaching a solution or concept reinforces retention and improves interview communication.
-- **Link back to experience:** Tie technical work to projects you’ve shipped; build stories for Week 7.
-- **Reflect weekly:** Note wins, struggles, and topics to revisit. Use these notes in Week 8 mocks.
+- **Link back to experience:** Tie technical work to projects you’ve shipped; build stories for later behavioral drills.
+- **Reflect each sprint:** Note wins, struggles, and topics to revisit. Use these notes during final mock loops.
 - **Stay healthy:** Remote prep requires energy—schedule breaks, exercise, and rest.
 
-Let’s get started! Pick the current week below and dive in. Stay accountable, iterate on feedback, and support others in the community as they prepare alongside you.
+Let’s get started! Pick the current sprint below and dive in. Stay accountable, iterate on feedback, and support others in the community as they prepare alongside you.
