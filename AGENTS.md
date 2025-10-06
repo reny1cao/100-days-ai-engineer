@@ -3,6 +3,7 @@
 ## Project Structure & Module Organization
 - Source lives in `src/`:
   - Docs content in `src/content/docs/` (`guides/`, `reference/`, `index.mdx`).
+  - Chinese translations in `src/content/docs/zh/` mirroring the English folder structure.
   - Assets in `src/assets/` (use relative links in MD/MDX).
   - Content config in `src/content.config.ts`.
 - Static files in `public/`.
@@ -45,4 +46,5 @@
 
 ## Agent-Specific Notes
 - When adding a doc page, place it under `src/content/docs/...` and update the sidebar in `astro.config.mjs` if needed (the `reference/` section autogenerates; `guides/` is explicit).
+- For new content, provide both English and Chinese versions (or leave TODO notes) so locales remain in sync.
 - Do not restructure directories without discussion. Favor minimal changes aligned with existing patterns.

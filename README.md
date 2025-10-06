@@ -13,6 +13,7 @@ A remote-friendly study guide that walks candidates through a full-time, 8-week 
 - **Landing hub:** A styled homepage highlighting the 8-week roadmap, milestones, and quick navigation cards.
 - **Weekly guides:** Structured sections per week with callouts, resource tables, practice prompts, and reflection checklists.
 - **GitHub Pages deployment:** Automated via the official [withastro/action](https://github.com/withastro/action) workflow.
+- **Localization:** English and Simplified Chinese content with locale-aware navigation.
 
 ## 🛠️ Prerequisites
 
@@ -59,6 +60,12 @@ The site deploys automatically on pushes to `main` via `.github/workflows/deploy
 3. Publishes to GitHub Pages (environment `github-pages`).
 
 Ensure `astro.config.mjs` has the correct `site` and `base` values (`https://<username>.github.io` and `/repo-name`).
+
+## 🌍 Localization
+
+- Default语言为 `en`，同时提供 `zh`（简体中文）翻译。
+- 英文文档位于 `src/content/docs/`，中文文档位于 `src/content/docs/zh/`，路径结构保持一致以便路由匹配。
+- 更新内容时请同步维护多语言版本，或在 PR 中标明待翻译部分。
 
 ## 🤝 Contributing
 
