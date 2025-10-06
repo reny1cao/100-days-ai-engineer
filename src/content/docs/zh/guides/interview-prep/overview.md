@@ -1,6 +1,6 @@
 ---
-title: 面试准备总览
-description: 以十个冲刺为单位的远程友好备考路线，覆盖算法、系统设计、LLM、RAG、Agent、数据工程与面试掌控。
+title: 100 天面试准备总览
+description: 以十个冲刺完成 100 天备考，覆盖算法、系统设计、LLM、RAG、Agent、数据工程与面试掌控。
 ---
 
 概览

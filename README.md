@@ -1,6 +1,6 @@
-# AI Engineer Interview Prep Sprints
+# 100-Day AI Engineer Interview Prep
 
-A remote-friendly study guide that walks candidates through a full-time, sprint-based preparation plan for AI Engineer interviews. The site includes ten sprint playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, data engineering, LLMOps, and interview mastery. All content is available in English (`en`) and Simplified Chinese (`zh`).
+A remote-friendly study guide that walks candidates through a full-time, 100-day (10-sprint) preparation plan for AI Engineer interviews. The site includes ten sprint playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, data engineering, LLMOps, and interview mastery. All content is available in English (`en`) and Simplified Chinese (`zh`).
 
 - **Live site:** https://reny1cao.github.io/100-days-ai-engineer/
 - **Docs source:** `src/content/docs/`

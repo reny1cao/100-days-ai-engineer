@@ -1,6 +1,6 @@
 ---
-title: AI Engineer Interview Prep Sprints
-description: Remote-friendly, full-time plan organized into ten themed sprints covering coding, systems, ML/LLMs, RAG, agents, data engineering, and interview mastery.
+title: 100-Day AI Engineer Interview Prep Overview
+description: Remote-friendly, full-time 100-day plan organized into ten themed sprints covering coding, systems, ML/LLMs, RAG, agents, data engineering, and interview mastery.
 ---
 
 Overview
