@@ -1,8 +1,6 @@
 # AI Engineer Interview Prep Sprints
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
-
-A remote-friendly study guide that walks candidates through a full-time, sprint-based preparation plan for AI Engineer interviews. The site contains ten sprint playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, data engineering, LLMOps, and interview mastery.
+A remote-friendly study guide that walks candidates through a full-time, sprint-based preparation plan for AI Engineer interviews. The site includes ten sprint playbooks covering data structures, advanced algorithms, system design for LLM/big-data workloads, ML/LLM fundamentals, RAG systems, agent orchestration, data engineering, LLMOps, and interview mastery. All content is available in English (`en`) and Simplified Chinese (`zh`).
 
 - **Live site:** https://reny1cao.github.io/100-days-ai-engineer/
 - **Docs source:** `src/content/docs/`
@@ -10,10 +8,10 @@ A remote-friendly study guide that walks candidates through a full-time, sprint-
 
 ## 📚 What’s Inside
 
-- **Landing hub:** A styled homepage highlighting the sprint roadmap, milestones, and quick navigation cards.
-- **Sprint guides:** Structured sections per sprint with callouts, resource tables, practice prompts, and reflection checklists.
-- **GitHub Pages deployment:** Automated via the official [withastro/action](https://github.com/withastro/action) workflow.
-- **Localization:** English and Simplified Chinese content with locale-aware navigation.
+- **Landing hub：** sprint roadmap、milestones 与导航卡片。
+- **Sprint guides：** 每个冲刺涵盖目标、资源、练习与复盘提示（en/zh 双语同步）。
+- **自动部署：** GitHub Pages + [`withastro/action`](https://github.com/withastro/action)。
+- **多语言支持：** 顶部语言切换，或直接访问 `/zh/…` 路径查看中文内容。
 
 ## 🛠️ Prerequisites
 
