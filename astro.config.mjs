@@ -17,10 +17,10 @@ export default defineConfig({
 				zh: 'AI 工程师面试 100 天',
 			},
 			locales: {
-				en: { label: 'English', lang: 'en' },
+				root: { label: 'English', lang: 'en' },
 				zh: { label: '简体中文', lang: 'zh' },
 			},
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/reny1cao/100-days-ai-engineer' }],
 			sidebar: [
 				{
